@@ -14,7 +14,7 @@ const [shoppingList, setShoppingList] = useState([])
 const addProductToShoppingList = (product) => {
     setShoppingList((state) => [
       ...state,
-      { ...product, id: Math.random(), isClicked: false },
+      { ...product, id: Math.random()},
     ]);
   };
   
